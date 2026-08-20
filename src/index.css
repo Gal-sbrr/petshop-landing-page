@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pine: #14231F;
+  --color-pine-light: #1E362F;
+  --color-parchment: #E8DEC7;
+  --color-ivory: #F5F1E7;
+  --color-brass: #B98B4E;
+  --color-brass-light: #D4AF7A;
+  --color-wax: #6B2737;
+
+  --font-display: "Instrument Serif", serif;
+  --font-body: "Manrope", sans-serif;
+  --font-tag: "JetBrains Mono", monospace;
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-pine);
+  font-family: var(--font-body);
+}
